@@ -1,0 +1,12 @@
+.env
+**/.env
+**/target/
+**/node_modules/
+**/dist/
+.idea/
+.vscode/
+*.log
+
+# The BridgeConn sign clips are 3,000+ large media files. Keep the manifest,
+# but provision the clips during deployment or host them in object storage.
+frontend/public/assets/signs/*.mp4
